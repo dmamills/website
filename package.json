@@ -1,0 +1,19 @@
+{
+  "name": "website",
+  "version": "1.0.0",
+  "description": "a website",
+  "scripts": {
+    "test": "./node_modules/.bin/mocha tests/test.js",
+    "serve": "python -m SimpleHTTPServer",
+    "build": "./node_modules/.bin/browserify ./src/main.js -o ./js/dist.js",
+    "watch": "./node_modules/.bin/watchify ./src/main.js -o ./js/dist.js"
+  },
+  "author": "dmamills",
+  "dependencies": {},
+  "devDependencies": {
+    "browserify": "^13.0.1",
+    "mocha": "^2.5.3",
+    "should": "^9.0.2",
+    "watchify": "^3.7.0"
+  }
+}
