@@ -1,6 +1,7 @@
 # a website
 
 p. basic website boilerplate, using: `HTML` and `CSS` and `JAVASCRIPT`
+Beautifully Designed  website.
 
 # dev
 
